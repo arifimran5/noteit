@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+* {
+   box-sizing: border-box;
+   outline: none;
+}
+
+body {
+   background-color: #f1f1f1;
+   font-family: "Poppins", sans-serif;
+   margin: 0;
+   padding-top: 3rem;
+}
+
+.heading {
+   text-align: center;
+   font-family: "Inter", "Poppins", sans-serif;
+}
+.heading h1 {
+   font-weight: 700;
+   font-size: 3.5rem;
+   -webkit-text-fill-color: #5cff77;
+   -webkit-text-stroke: 2px black;
+}
+.heading p {
+   margin-top: -2.5rem;
+   font-weight: 500;
+   color: #a0a0a0;
+}
+
+.add_new {
+   padding: 20px;
+   background-color: #f1f1f1;
+   display: inline-block;
+   border-radius: 4rem;
+   margin-top: 2rem;
+   box-shadow: 4px 3px 10px #00000010, -4px -3px 10px white;
+}
+
+.add_new span {
+   color: #ff7373;
+}
+
+.note_app {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.add {
+   position: fixed;
+   top: 1rem;
+   right: 1rem;
+   color: #1a1a1a;
+   background-color: #f1f1f1;
+   box-shadow: 4px 3px 10px #00000010, -4px -3px 10px white;
+   border: none;
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+   border: 1px solid #0000000a;
+   background-color: #5cff77;
+   border-radius: 5px;
+}
+
+.note {
+   box-shadow: 4px 4px 12px #00000010, -4px -4px 15px white;
+   margin: 20px 20px;
+   width: 350px;
+}
+
+.note .tools {
+   display: flex;
+   justify-content: flex-end;
+   padding: 0.5rem;
+   background-color: #f1f1f1;
+}
+
+.tools button {
+   margin-left: 5px;
+   border: none;
+   background-color: #5cff77;
+   padding: 6px 8px;
+   border-radius: 50%;
+   cursor: pointer;
+   color: #242424;
+}
+
+.note textarea {
+   outline: none;
+   font-family: inherit;
+   font-size: 1.2rem;
+   border: none;
+   background-color: #f1f1f1;
+   height: 200px;
+   width: 100%;
+   padding: 0 20px;
+}
+
+.main {
+   padding: 20px;
+}
+
+.hidden {
+   display: none;
+}
+
+.footer {
+   text-align: center;
+   margin: 3rem;
+   font-weight: 500;
+}
