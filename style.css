@@ -69,6 +69,7 @@ body {
    box-shadow: 4px 4px 12px #00000021, -4px -4px 15px white;
    margin: 20px 20px;
    width: 350px;
+   border-radius: 10px;
 }
 
 .note .tools {
