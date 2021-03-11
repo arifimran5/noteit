@@ -16,9 +16,10 @@ body {
 
 .heading {
    text-align: center;
-   font-family: "Inter", "Poppins", sans-serif;
+   
 }
 .heading h1 {
+   font-family: "Inter", "Poppins", sans-serif;
    font-weight: 700;
    font-size: 3.5rem;
    -webkit-text-fill-color: #5cff77;
