@@ -1,4 +1,6 @@
 # NoteIt
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81ded2fc-db61-4d2b-a642-d2fe9172e1dd/deploy-status)](https://app.netlify.com/sites/noteitdown/deploys)
+<br>
 This is a note taking app. where you can store your daily notes. 
 - It will be stored in our local storage.
 - You can also use markdown to make your notes.
