@@ -14,6 +14,10 @@ This is a note taking app. where you can store your daily notes.
 https://noteitdown.netlify.app/
 
 ![Live Demo](https://github.com/arifimran5/noteit/blob/main/assets/live-demo.jpg)
-
+<br>
+---
+## Libraries used 
+1. <a href="https://marked.js.org/">Marked JS</a>
+2. <a href="https://fontawesome.com/v4.7.0/icons/">Font Awesome</a>
 <br>
 <em>This project is a part of collge project. </em>
