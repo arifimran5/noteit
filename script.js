@@ -9,9 +9,8 @@ if (notes) {
 addBtn.addEventListener("click", () => addNewNote(""));
 
 function addNewNote(text = "") {
-
-  const add_note = document.getElementById('add_new');
-  add_note.style.display = 'none';
+   const add_note = document.getElementById("add_new");
+   add_note.style.display = "none";
 
    const note = document.createElement("div");
    note.classList.add("note");
@@ -30,7 +29,7 @@ function addNewNote(text = "") {
    const deleteBtn = note.querySelector(".delete");
    const main = note.querySelector(".main");
    const textArea = note.querySelector("textarea");
-   const notes__app = document.querySelector(".note_app")
+   const notes__app = document.querySelector(".note_app");
 
    textArea.value = text;
    main.innerHTML = marked(text);
@@ -67,5 +66,9 @@ function updateLs() {
    notesText.forEach((note) => notes.push(note.value));
 
    localStorage.setItem("notes", JSON.stringify(notes));
-}
 
+   if (notes.length == 0) {
+      const add_note = document.getElementById("add_new");
+      add_note.style.display = "inline-block";
+   }
+}
