@@ -11,4 +11,4 @@ https://noteitdown.netlify.app/
 ![Live Demo](https://github.com/arifimran5/noteit/blob/main/assets/live-demo.jpg)
 
 <br>
-> This project is a part of collge project. 
+<em>This project is a part of collge project. </em>
