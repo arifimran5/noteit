@@ -35,7 +35,7 @@ body {
    padding: 20px;
    background-color: #f1f1f1;
    display: inline-block;
-   border-radius: 4rem;
+   border-radius: 0.9rem;
    margin-top: 2rem;
    box-shadow: 4px 3px 10px #00000010, -4px -3px 10px white;
 }
