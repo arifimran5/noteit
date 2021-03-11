@@ -8,7 +8,7 @@
 }
 
 body {
-   background-color: #f1f1f1;
+   background-color: #e2e2e2;
    font-family: "Poppins", sans-serif;
    margin: 0;
    padding-top: 3rem;
@@ -28,16 +28,16 @@ body {
 .heading p {
    margin-top: -2.5rem;
    font-weight: 500;
-   color: #a0a0a0;
+   color: #7c7c7c;
 }
 
 .add_new {
-   padding: 20px;
-   background-color: #f1f1f1;
+   padding:20px 40px;
+   background-color: #e2e2e2;
    display: inline-block;
-   border-radius: 0.9rem;
+   border-radius: 0.2rem;
    margin-top: 2rem;
-   box-shadow: 4px 3px 10px #00000010, -4px -3px 10px white;
+   box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
 }
 
 .add_new span {
@@ -55,8 +55,7 @@ body {
    top: 1rem;
    right: 1rem;
    color: #1a1a1a;
-   background-color: #f1f1f1;
-   box-shadow: 4px 3px 10px #00000010, -4px -3px 10px white;
+   box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
    border: none;
    padding: 0.5rem 1rem;
    cursor: pointer;
@@ -67,7 +66,7 @@ body {
 }
 
 .note {
-   box-shadow: 4px 4px 12px #00000010, -4px -4px 15px white;
+   box-shadow: 4px 4px 12px #00000021, -4px -4px 15px white;
    margin: 20px 20px;
    width: 350px;
 }
@@ -76,7 +75,7 @@ body {
    display: flex;
    justify-content: flex-end;
    padding: 0.5rem;
-   background-color: #f1f1f1;
+   background-color: transparent;
 }
 
 .tools button {
@@ -94,7 +93,7 @@ body {
    font-family: inherit;
    font-size: 1.2rem;
    border: none;
-   background-color: #f1f1f1;
+   background-color: transparent;
    height: 200px;
    width: 100%;
    padding: 0 20px;
@@ -113,3 +112,19 @@ body {
    margin: 3rem;
    font-weight: 500;
 }
+
+.help_btn{
+   display: flex;
+   justify-content: center;
+}
+.info_btn{
+   font-family: inherit;
+   background-color: #5cff77;
+   border: none;
+   cursor: help;
+   font-weight: bold;
+   padding: 5px 10px;
+   border-radius: 5px;
+   box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
+}
+
