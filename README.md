@@ -4,7 +4,9 @@
 This is a note taking app. where you can store your daily notes. 
 - It will be stored in our local storage.
 - You can also use markdown to make your notes.
-> Don't ❌ clear the data of the browser, as it will clear the local storage
+> Don't ❌ clear the data of the browser, as it will clear the local storage.
+
+
 > Don't ❌ open this app in Incognito tab, as Incognito doesn't store local data
 <br>
 
