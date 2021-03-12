@@ -1,12 +1,6 @@
 const addBtn = document.getElementById("add");
 
-// get notes from local storage
-const notes = JSON.parse(localStorage.getItem("notes"));
 
-// loop over the notes in local storage and run the addNewNote function
-if (notes) {
-   notes.forEach((note) => addNewNote(note));
-}
 
 //event listener on add button
 addBtn.addEventListener("click", () => addNewNote(""));
@@ -89,4 +83,12 @@ function updateLs() {
       const add_note = document.getElementById("add_new");
       add_note.style.display = "inline-block";
    }
+}
+
+// get notes from local storage
+const notes = JSON.parse(localStorage.getItem("notes"));
+
+// loop over the notes in local storage and run the addNewNote function
+if (notes) {
+   notes.forEach((note) => addNewNote(note));
 }

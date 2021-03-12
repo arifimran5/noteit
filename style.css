@@ -16,10 +16,9 @@ body {
 
 .heading {
    text-align: center;
-   
 }
 .heading h1 {
-   font-family:"Poppins", sans-serif;
+   font-family: "Poppins", sans-serif;
    font-weight: 700;
    font-size: 3.5rem;
    -webkit-text-fill-color: #5cff77;
@@ -32,12 +31,12 @@ body {
 }
 
 .add_new {
-   padding:20px 40px;
+   padding: 20px 40px;
    background-color: #e2e2e2;
    display: inline-block;
-   border-radius: 0.2rem;
    margin-top: 2rem;
-   box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
+   border-radius: 20px;
+   box-shadow: 19px 19px 38px #c5c5c5, -19px -19px 38px #ffffff;
 }
 
 .add_new span {
@@ -62,7 +61,7 @@ body {
    border: 1px solid #0000000a;
    background-color: #5cff77;
    border-radius: 5px;
-   font-family: 'Poppins',sans-serif;
+   font-family: "Poppins", sans-serif;
 }
 
 .note {
@@ -114,11 +113,11 @@ body {
    font-weight: 500;
 }
 
-.help_btn{
+.help_btn {
    display: flex;
    justify-content: center;
 }
-.info_btn{
+.info_btn {
    font-family: inherit;
    background-color: #5cff77;
    border: none;
@@ -128,4 +127,3 @@ body {
    border-radius: 5px;
    box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
 }
-
