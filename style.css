@@ -139,6 +139,7 @@ body {
    padding: 5px 10px;
    border-radius: 5px;
    box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
+   margin-bottom: 10px;
 }
 
 .info_btn:hover::after{
