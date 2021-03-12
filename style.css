@@ -140,3 +140,16 @@ body {
    border-radius: 5px;
    box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
 }
+
+.info_btn:hover::after{
+   content: "You can also use markdown to write your notes, if you are not familiar about markdown language then google about it , it is pretty easy to master.";
+   color: black;
+   background-color: #ff7373;
+   position: absolute;
+   bottom: 10px;
+   border: 1px dashed black;
+   font-weight: 400;
+   padding: 10px;
+   margin: 0 auto;
+   z-index: 999;
+}
