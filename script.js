@@ -1,7 +1,5 @@
 const addBtn = document.getElementById("add");
 
-
-
 //event listener on add button
 addBtn.addEventListener("click", () => addNewNote(""));
 
