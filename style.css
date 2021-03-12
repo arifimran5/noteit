@@ -14,9 +14,12 @@ body {
    padding-top: 3rem;
 }
 
+/* making heading div center  */
 .heading {
    text-align: center;
 }
+
+/* styling the title  */
 .heading h1 {
    font-family: "Poppins", sans-serif;
    font-weight: 700;
@@ -24,12 +27,15 @@ body {
    -webkit-text-fill-color: #5cff77;
    -webkit-text-stroke: 2px black;
 }
+
+/* styling subtitle  */
 .heading p {
    margin-top: -2.5rem;
    font-weight: 500;
    color: #7c7c7c;
 }
 
+/* styling the description  */
 .add_new {
    padding: 20px 40px;
    background-color: #e2e2e2;
@@ -43,12 +49,14 @@ body {
    color: #ff7373;
 }
 
+/* styling notes parent division, centering it with flex  */
 .note_app {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
 }
 
+/* "add note" button at the top  */
 .add {
    position: fixed;
    top: 1rem;
@@ -64,6 +72,7 @@ body {
    font-family: "Poppins", sans-serif;
 }
 
+/* stylign single note  */
 .note {
    box-shadow: 4px 4px 12px #00000021, -4px -4px 15px white;
    margin: 20px 20px;
@@ -71,6 +80,7 @@ body {
    border-radius: 10px;
 }
 
+/* styling the tools on each note  */
 .note .tools {
    display: flex;
    justify-content: flex-end;
@@ -78,6 +88,7 @@ body {
    background-color: transparent;
 }
 
+/* styling button of tools  */
 .tools button {
    margin-left: 5px;
    border: none;
@@ -88,6 +99,7 @@ body {
    color: #242424;
 }
 
+/* styling the text area  */
 .note textarea {
    outline: none;
    font-family: inherit;
@@ -107,6 +119,7 @@ body {
    display: none;
 }
 
+ /* styling footer section  */
 .footer {
    text-align: center;
    margin: 3rem;

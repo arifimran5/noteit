@@ -3,12 +3,14 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- font awesome cdn -->
       <link
          rel="stylesheet"
          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
          integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
          crossorigin="anonymous"
       />
+      <!-- favicon -->
       <link
          rel="icon"
          type="image/png"
@@ -19,6 +21,7 @@
       <title>Notes App</title>
    </head>
    <body>
+      <!-- header title, subtitle and description -->
       <div class="heading">
          <h1>note it !</h1>
          <p>organize yourself</p>
@@ -26,6 +29,8 @@
             Click <span>add note 👆</span> button to add new note
          </div>
       </div>
+
+      <!-- notes section  -->
       <main class="note_app">
          <button class="add" id="add" title="click here to add notes">
             <i class="fas fa-plus"></i> Add note
@@ -34,6 +39,7 @@
          <div className="note-container"></div>
       </main>
 
+      <!-- footer section  -->
       <div class="footer">
          created with 🧡 by Arif, Aman , Aniket and Saarthak
       </div>
@@ -47,6 +53,7 @@
          </button>
       </div>
 
+      <!-- marked js cdn -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
       <script src="script.js"></script>
    </body>

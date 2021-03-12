@@ -13,7 +13,6 @@ function addNewNote(text = "") {
    note.classList.add("note");
    note.innerHTML = `
     <div class="tools">
-      
       <button class="edit" title="edit & submit"><i class="fas fa-edit"></i></button>
       <button class="delete" title="delete"><i class="fas fa-trash-alt"></i></button>
     </div>
