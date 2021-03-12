@@ -142,6 +142,7 @@ body {
    margin-bottom: 10px;
 }
 
+ /* hover effect on info  */
 .info_btn:hover::after{
    content: "You can also use markdown to write your notes, if you are not familiar about markdown language then google about it , it is pretty easy to master.";
    color: black;
