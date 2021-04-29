@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
-
 * {
    box-sizing: border-box;
    outline: none;
@@ -12,6 +10,7 @@ body {
    font-family: "Poppins", sans-serif;
    margin: 0;
    padding-top: 3rem;
+   position: relative;
 }
 
 /* making heading div center  */
@@ -42,7 +41,12 @@ body {
    display: inline-block;
    margin-top: 2rem;
    border-radius: 20px;
-   box-shadow: 19px 19px 38px #c5c5c5, -19px -19px 38px #ffffff;
+   border: 1px solid #00000027;
+   
+}
+.add_new:hover{
+   border: none;
+   box-shadow: 10px 10px 38px #c5c5c5, -10px -10px 38px #ffffff;
 }
 
 .add_new span {
@@ -80,6 +84,11 @@ body {
    border-radius: 10px;
 }
 
+.note:hover{
+   box-shadow: none;
+   border: 1px solid rgba(170, 170, 170, 0.719);
+}
+
 /* styling the tools on each note  */
 .note .tools {
    display: flex;
@@ -108,11 +117,11 @@ body {
    background-color: transparent;
    height: 200px;
    width: 100%;
-   padding: 0 20px;
+   padding:10px 20px;
 }
 
 .main {
-   padding: 20px;
+   padding:10px 20px;
 }
 
 .hidden {
@@ -140,6 +149,7 @@ body {
    border-radius: 5px;
    box-shadow: 4px 3px 10px #00000021, -4px -3px 10px white;
    margin-bottom: 10px;
+   
 }
 
  /* hover effect on info  */
@@ -149,6 +159,7 @@ body {
    background-color: #ff7373;
    position: absolute;
    bottom: 10px;
+   /* right: 0; */
    border: 1px dashed black;
    font-weight: 400;
    padding: 10px;

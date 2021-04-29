@@ -1,10 +1,11 @@
 const addBtn = document.getElementById("add");
 
 //event listener on add button
-addBtn.addEventListener("click", () => addNewNote(""));
+addBtn.addEventListener("click", () => addNewNote());
 
 //function to add new note with para of text which is by default blank
 function addNewNote(text = "") {
+   //setting initial description to display none
    const add_note = document.getElementById("add_new");
    add_note.style.display = "none";
 
@@ -16,7 +17,7 @@ function addNewNote(text = "") {
       <button class="edit" title="edit & submit"><i class="fas fa-edit"></i></button>
       <button class="delete" title="delete"><i class="fas fa-trash-alt"></i></button>
     </div>
-    <!-- conditionaly giving hidden class to div and text area -->
+    <!--COMMENT: conditionaly giving hidden class to div and text area -->
     <div class="main ${text ? "" : "hidden"}"></div>
     <textarea class="${text ? "hidden" : ""}"></textarea>
   `;
@@ -34,6 +35,7 @@ function addNewNote(text = "") {
    
    // deleting the note
    deleteBtn.addEventListener("click", () => {
+      //removing dom element with remove() method
       note.remove();
 
       // updating the local storage
