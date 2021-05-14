@@ -1,13 +1,18 @@
-const addBtn = document.getElementById("add");
+const addBtn = $("#add");
+
+// jquery animations
+const mainTitle = $(".heading");
+mainTitle.hide();
+mainTitle.slideDown(1000)
 
 //event listener on add button
-addBtn.addEventListener("click", () => addNewNote());
+addBtn.on("click", () => addNewNote());
 
 //function to add new note with para of text which is by default blank
 function addNewNote(text = "") {
    //setting initial description to display none
-   const add_note = document.getElementById("add_new");
-   add_note.style.display = "none";
+   const add_note = $(".add_new");
+   add_note.css({display: "none"});
 
    // Creating a div with classname of note and adding inner html of edit and delete button
    const note = document.createElement("div");
@@ -58,8 +63,8 @@ function addNewNote(text = "") {
    });
    
    // grabbing .note_app div and appending entire note to it
-   const notes__app = document.querySelector(".note_app");
-   notes__app.appendChild(note);
+   const notes__app = $(".note_app");
+   notes__app.append(note);
 }
 
 
