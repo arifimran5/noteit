@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- font awesome cdn -->
-      <link
-         rel="stylesheet"
-         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-         crossorigin="anonymous"
-      />
-      <!-- favicon -->
-      <link
-         rel="icon"
-         type="image/png"
-         sizes="32x32"
-         href="./assets/favicon.ico"
-      />
-      <link rel="stylesheet" href="style.css" />
-      <title>Notes App</title>
-   </head>
-   <body>
-      <!-- header title, subtitle and description -->
-      <div class="heading">
-         <h1>note it !</h1>
-         <p>organize yourself</p>
-         <div class="add_new" id="add_new">
-            Click <span>add note 👆</span> button to add new note
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <!-- header title, subtitle and description -->
+    <div class="heading">
+      <h1>note it !</h1>
+      <p>organize yourself</p>
+      <div class="add_new" id="add_new">
+        Click <span>add note 👆</span> button to add new note
       </div>
+    </div>
 
-      <!-- notes section  -->
-      <main class="note_app">
-         <button class="add" id="add" title="click here to add notes">
-            <i class="fas fa-plus"></i> Add note
-         </button>
-         <!--Here the note will be appended dynmically-->
-      </main>
+    <!-- notes section  -->
+    <main class="note_app">
+      <button class="add" id="add" title="click here to add notes">
+        <i class="fas fa-plus"></i> Add note
+      </button>
+      <!--Here the note will be appended dynmically-->
+    </main>
 
-      <!-- footer section  -->
-      <div class="footer">
-         created with 🧡 by Arif and Aniket
-      </div>
-      <div class="help_btn">
-         <button class="info_btn">
-            note
-            <i class="info fa fa-info-circle"></i>
-         </button>
-      </div>
+    <!-- footer section  -->
+    <div class="footer">created with 🧡 by Arif and Aniket</div>
+    <div class="help_btn">
+      <button class="info_btn">
+        <i class="info fa fa-info-circle"></i>
+      </button>
+    </div>
 
-      <!-- jquery cdn  -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <!-- marked js cdn -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
-      <!-- main script file  -->
-      <script src="script.js"></script>
-   </body>
+    <!-- jquery cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- marked js cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+    <!-- main script file  -->
+    <script src="script.js"></script>
+  </body>
 </html>
